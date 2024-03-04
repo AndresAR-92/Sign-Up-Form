@@ -9,11 +9,14 @@
 }
 
 html {
+  width: 90rem;
+  margin: 0 auto;
   font-size: 62.5%;
 }
 
 .container {
   display: flex;
+  width: 100%;
 }
 
 .side {
@@ -41,4 +44,24 @@ img {
 .logo-text {
   color: #fff;
   font-size: 4rem;
+}
+
+.right-container {
+  margin-left: 3rem;
+  flex-direction: column;
+}
+
+input {
+  display: block;
+}
+
+.form-container {
+  flex-wrap: wrap;
+  background-color: aqua;
+  row-gap: 2rem;
+  column-gap: 5rem;
+}
+
+section:last-child {
+  margin-top: 2rem;
 }
