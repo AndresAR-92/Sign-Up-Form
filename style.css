@@ -1,0 +1,44 @@
+/* 
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: flex;
+}
+
+.side {
+  position: relative;
+}
+
+img {
+  width: 35rem;
+}
+
+.logo-container {
+  height: 10rem;
+  width: 100%;
+  background-color: #1a1a1ab6;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 12rem;
+}
+
+.logo {
+  width: 6rem;
+}
+
+.logo-text {
+  color: #fff;
+  font-size: 4rem;
+}
